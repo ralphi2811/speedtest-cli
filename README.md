@@ -5,6 +5,13 @@ Unofficial speedtest-cli docker container
 
 Ce projet contient un Dockerfile pour installer `speedtest-cli`, un outil en ligne de commande pour mesurer la bande passante Internet.
 
+## Note sur la licence
+
+En utilisant ce conteneur, vous acceptez automatiquement la licence Speedtest CLI. Pour plus d'informations, consultez :
+- https://www.speedtest.net/about/eula
+- https://www.speedtest.net/about/terms
+- https://www.speedtest.net/about/privacy
+
 ## Construction de l'image Docker
 
 Pour construire l'image Docker, exécutez la commande suivante dans le répertoire du projet :
