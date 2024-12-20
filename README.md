@@ -1,20 +1,12 @@
-# speedtest-cli
-Unofficial speedtest-cli docker container
+# Speedtest CLI Docker Container
 
-# Projet Speedtest Docker
+Ce conteneur Docker permet d'exécuter speedtest-cli, l'outil officiel d'Ookla pour tester la vitesse de votre connexion Internet.
 
-Ce projet contient un Dockerfile pour installer `speedtest-cli`, un outil en ligne de commande pour mesurer la bande passante Internet.
+## Prérequis
 
-## Note sur la licence
+- Docker installé sur votre machine
 
-En utilisant ce conteneur, vous acceptez automatiquement la licence Speedtest CLI. Pour plus d'informations, consultez :
-- https://www.speedtest.net/about/eula
-- https://www.speedtest.net/about/terms
-- https://www.speedtest.net/about/privacy
-
-## Construction de l'image Docker
-
-Pour construire l'image Docker, exécutez la commande suivante dans le répertoire du projet :
+## Installation
 
 ```bash
 docker build -t speedtest-cli .
@@ -28,9 +20,12 @@ Pour exécuter le conteneur et lancer le test de vitesse, utilisez la commande s
 docker run --rm speedtest-cli
 ```
 
-## Prérequis
+## Note sur la licence
 
-- Docker doit être installé sur votre machine. 
+En utilisant ce conteneur, vous acceptez automatiquement la licence Speedtest CLI. Pour plus d'informations, consultez :
+- https://www.speedtest.net/about/eula
+- https://www.speedtest.net/about/terms
+- https://www.speedtest.net/about/privacy
 
 ## Aide
 
